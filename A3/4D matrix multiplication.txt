@@ -1,0 +1,88 @@
+Script started on Sat 25 Sep 2021 08:04:32 PM PDT
+]0;kocomp341130@cs2:~/comp3411/Assignments/A3[?1034h[kocomp341130@cs2 A3]$ exitjava MatrixMultiplication
+Testing the multiplication of 4D matrixes
+
+Printing the source matrix
+4 7 1 1 
+3 2 6 5 
+3 0 5 3 
+2 4 9 5 
+Printing the target matrix
+8 9 4 4 
+8 6 5 9 
+8 3 7 9 
+3 6 6 0 
+I am the 1'th worker thread
+Calculating the element at (0, 0)
+Thread 1 is done
+
+I am the 2'th worker thread
+Calculating the element at (0, 1)
+Thread 2 is done
+
+I am the 3'th worker thread
+Calculating the element at (0, 2)
+Thread 3 is done
+
+I am the 4'th worker thread
+Calculating the element at (0, 3)
+Thread 4 is done
+
+I am the 5'th worker thread
+Calculating the element at (1, 0)
+Thread 5 is done
+
+I am the 6'th worker thread
+Calculating the element at (1, 1)
+Thread 6 is done
+
+I am the 7'th worker thread
+Calculating the element at (1, 2)
+Thread 7 is done
+
+I am the 8'th worker thread
+Calculating the element at (1, 3)
+Thread 8 is done
+
+I am the 9'th worker thread
+Calculating the element at (2, 0)
+Thread 9 is done
+
+I am the 10'th worker thread
+Calculating the element at (2, 1)
+Thread 10 is done
+
+I am the 11'th worker thread
+Calculating the element at (2, 2)
+Thread 11 is done
+
+I am the 12'th worker thread
+Calculating the element at (2, 3)
+Thread 12 is done
+
+I am the 13'th worker thread
+Calculating the element at (3, 0)
+Thread 13 is done
+
+I am the 14'th worker thread
+Calculating the element at (3, 1)
+Thread 14 is done
+
+I am the 15'th worker thread
+Calculating the element at (3, 2)
+Thread 15 is done
+
+I am the 16'th worker thread
+Calculating the element at (3, 3)
+Thread 16 is done
+
+I am the main thread
+Printing the result matrix
+99 87 64 88 
+103 87 94 84 
+73 60 65 57 
+135 99 121 125 
+]0;kocomp341130@cs2:~/comp3411/Assignments/A3[kocomp341130@cs2 A3]$ exit
+exit
+
+Script done on Sat 25 Sep 2021 08:04:46 PM PDT

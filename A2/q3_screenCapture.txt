@@ -1,0 +1,46 @@
+Script started on Tue 21 Sep 2021 12:21:14 AM PDT
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[?1034h[kocomp341130@cs2 A2]$ exitps -fkill -9 423134[8Pps -fkill 423134[1P1776[1P 1776[3Pps -fkill 1776176[4Pps -f./a.out &[5Pexit./a.out &
+[1] 42358
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ 
+
+The values are Child ID = 42359, Parent ID=42358
+ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+1776     42341 42340  0 00:21 pts/20   00:00:00 bash -i
+1776     42358 42341  0 00:21 pts/20   00:00:00 ./a.out
+1776     42359 42358  0 00:21 pts/20   00:00:00 cat -b -v -t
+1776     42360 42341  0 00:21 pts/20   00:00:00 ps -f
+
+[1]+  Stopped                 ./a.out
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ ps -f./a.out &[5Pexit./a.out &[C[Ktest.xtx[K[K[Ktxt
+
+
+The values are Child ID = 42362, Parent ID=42361
+     1	This is line one in my text file.^M
+     2	This is line two in my text file.^M
+     3	This is line three in my text file.^M
+     4	Hello there^M
+     5	It's over Anakin. I have the high ground!^M
+     6	You underestimate my power!^M
+     7	Unlimited power!^M
+     8	Linux provides many commands for manipulating text!^M
+
+Child Completes 
+In the Parent Process
+Child Id = 42361, Parent ID = 42341
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+1776     42341 42340  0 00:21 pts/20   00:00:00 bash -i
+1776     42358 42341  0 00:21 pts/20   00:00:00 ./a.out
+1776     42359 42358  0 00:21 pts/20   00:00:00 cat -b -v -t
+1776     42363 42341  0 00:21 pts/20   00:00:00 ps -f
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ kill -9 42358
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+1776     42341 42340  0 00:21 pts/20   00:00:00 bash -i
+1776     42366 42341  0 00:22 pts/20   00:00:00 ps -f
+[1]+  Killed                  ./a.out
+]0;kocomp341130@cs2:~/comp3411/Assignments/A2[kocomp341130@cs2 A2]$ exit
+exit
+
+Script done on Tue 21 Sep 2021 12:22:13 AM PDT

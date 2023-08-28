@@ -1,0 +1,9 @@
+Script started on Thu 16 Sep 2021 10:16:48 AM PDT
+]0;kocomp341130@cs2:~/comp3411/Assignments/A1[?1034h[kocomp341130@cs2 A1]$ ./smallprogram.out
+What is your name? Ti om
+How many times shall I print it? 4
+Tom Tom Tom Tom 
+]0;kocomp341130@cs2:~/comp3411/Assignments/A1[kocomp341130@cs2 A1]$ >ex[K[K[Kexit
+exit
+
+Script done on Thu 16 Sep 2021 10:17:08 AM PDT

@@ -1,0 +1,12 @@
+Script started on Thu 16 Sep 2021 10:19:34 AM PDT
+]0;kocomp341130@cs2:~/comp3411/Assignments/A1[?1034h[kocomp341130@cs2 A1]$ java smal[K[K[K[K./smallprogram
+Error: Could not find or load main class ..smallprogram
+]0;kocomp341130@cs2:~/comp3411/Assignments/A1[kocomp341130@cs2 A1]$ java small [Kprogram
+Your first initial? D
+Your last initial? L
+Repeating 20 times.
+D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! D.L. likes Linux! 
+]0;kocomp341130@cs2:~/comp3411/Assignments/A1[kocomp341130@cs2 A1]$ exit
+exit
+
+Script done on Thu 16 Sep 2021 10:20:09 AM PDT
